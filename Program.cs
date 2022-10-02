@@ -40,6 +40,9 @@ if (Num1 > Num3){
 Console.WriteLine ($"Наибольшим числом является {Nummax}");
 */
 
+
+
+
 /*
 Console.WriteLine("Введите число");
 int Num1 = int.Parse(Console.ReadLine());
@@ -51,12 +54,18 @@ else{
     Console.WriteLine("Число четное");
 }*/
 
+
+
+
+/*
 Console.WriteLine("Введите число N");
 int N = int.Parse(Console.ReadLine());
-int count = 1;
+int count = 0;
 
-while (count <= N);
-{
-    Console.WriteLine(count);
-    count = count + 1;
-}
+while (count <= N)
+{   
+    if (count < N){
+        Console.WriteLine(count);
+        count = count + 2;
+    }
+}*/
